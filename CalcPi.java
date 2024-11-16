@@ -8,6 +8,7 @@ public class CalcPi {
 			aproxPI += sign / ((i * 2.0) + 1.0);
 			sign *= (-1.0);
 		}
-		System.out.println(aproxPI * 4.0);		
+		System.out.println("pi according to java: " + Math.PI);
+		System.out.println("pi, approximated      " + aproxPI * 4.0);		
 	}	
 }
